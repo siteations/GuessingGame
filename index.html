@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Guessing Game</title>
+    <!--western casino decor theme-->
+
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Ewert|Open+Sans|" rel="stylesheet"> 
+    <!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--links or hosted plug-ins to come-->
+    <script type="text/javascript"></script>
+
+  </head>
+  <body>
+
+      <div id='app' class='container center'>
+
+        <div id='headers'>
+          <h1 id='title'>Try Your Luck, Partner</h1> 
+          <h3 id='subtitle'>Put Some Money on the Guessing Game</h3>
+        </div>
+
+        <div id='main'>
+
+          <div id='input-parent'>
+            <input id="goNumber" placeholder="#" maxlength='4' autofocus=autofocus></input>
+            <button id="goAdd">Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li> <!-- Jquery can insert others-->
+            </ul>
+          </div>
+
+          <div id="menu-btns" class="center">
+              <button id="goReset" class="btn btn-default">Reset</button>
+              <button id="goHint" class="btn btn-default">Hint</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    <div id='footer'>
+        <div class="row">
+          <div class='center fc col-xs-3 col-md-2'>
+          </div>
+
+          <div class='center fc col-xs-3 col-md-2'>
+            <p class='os'>secondary logos or alternates</p>
+          </div>
+
+          <div class='center fc col-xs-6 col-md-4'>
+            <h4>Project by Meg 
+              <p class='os'>(modified from Fullstack's frameworks)</p></h4>
+          </div>
+
+          <div class='center fc col-xs-3 col-md-2'>
+            <p class='os'>secondary logos or alternates</p>
+          </div>
+
+          <div class='center fc col-xs-3 col-md-2'>
+          </div>
+
+        </div>
+    </div>
+
+  </body>
+</html>
